@@ -1,29 +1,29 @@
 #Git and Github
 
 ### What is Source/Version control?
-  > A way of tracking your files progress over time or a view of how your project progressed over time
-  > It is usually saved in a series of snapshots and branches,which you can move back and forth between.
-  > Allows distribute ur file changes over time.
-  > prevent against data loss/damage by creating backup snapshots.
-  > manage complex project structures easily.
+> A way of tracking your files progress over time or a view of how your project progressed over time
+> It is usually saved in a series of snapshots and branches,which you can move back and forth between.
+> Allows distribute ur file changes over time.
+> prevent against data loss/damage by creating backup snapshots.
+> manage complex project structures easily.
   
 ### What is Git?
-  > Git is a source control.
-  > popular 
-  > lot of docs and support
-  > lots of integration with other application eg github,
+> Git is a source control.
+> popular 
+> lot of docs and support
+> lots of integration with other application eg github,
 
 
 ### Difference between git and github
-  > github is an application allowing to store remote repositories(hub to git).
-  > Github can interact with local machine through push/pull system on ur local machine.
-  > Github used primarily to allow other people to add to the project (ex open source projects).
-  > Github allows more people than just you to see and interact with the repository.
-  > Github is sort of platform to use git.
-  > Git is version control software allowing you to take snapshots & distribute yout creation and modifications over time.
-  > Github is an application allowing you to store and interact with ur repositories on a remote server as well as adding 
+> github is an application allowing to store remote repositories(hub to git).
+> Github can interact with local machine through push/pull system on ur local machine.
+> Github used primarily to allow other people to add to the project (ex open source projects).
+> Github allows more people than just you to see and interact with the repository.
+> Github is sort of platform to use git.
+> Git is version control software allowing you to take snapshots & distribute yout creation and modifications over time.
+> Github is an application allowing you to store and interact with ur repositories on a remote server as well as adding 
     more features () eg: publicity,license,collaboartors.
-  > Git is bones and flesh of SC while github gives u the platform to work with ur repository easier.
+    > Git is bones and flesh of SC while github gives u the platform to work with ur repository easier.
 
 ### Installing Git
   > 
