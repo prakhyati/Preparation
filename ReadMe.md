@@ -1,4 +1,4 @@
-#Git and Github
+# Git and Github
 
 ### What is Source/Version control?
 * A way of tracking your files progress over time or a view of how your project progressed over time
@@ -15,7 +15,7 @@
 
 
 ### Difference between git and github
-* github is an application allowing to store remote repositories(hub to git).
+* Github is an application allowing to store remote repositories(hub to git).
 * Github can interact with local machine through push/pull system on ur local machine.
 * Github used primarily to allow other people to add to the project (ex open source projects).
 * Github allows more people than just you to see and interact with the repository.
@@ -25,19 +25,14 @@
 * Git is bones and flesh of SC while github gives u the platform to work with ur repository easier.
 
 ### Installing Git
-  > 
-
-
-
-
-
-https://git-scm.com/downloads
-
-
-
-git --version  version of git installed
-
-
+* We need kind of shell or a command prompt
+* https://git-scm.com/downloads
+* gitbash
+![gitbash](https://user-images.githubusercontent.com/43897511/50851841-92e92400-1343-11e9-9f1b-fc0461ba74dd.PNG)
+* Test git is working or not
+  * Open gitbash
+  * git --version  (_version of git installed_)
+  
 
 
 
