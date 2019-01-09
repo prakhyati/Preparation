@@ -33,188 +33,60 @@
   * Open gitbash
   * git --version  (_version of git installed_)
   
-
-
-
-if u r windows user then
-
-
-
-contro .program turn windows feature on and off
-
-windows subsytem for linux restart
-
-
-
-
-
-window store install ubuntu 
-
-
-
-git workflow
-
-
-
-before git tracks a change , it goes through a long chain of operations and tasks
-
-many of these tasks are user controlled and are required for changes to be tracked correctly
-
-
-
-
-
-
-
-repositories
-
-
-
-data storage sore full history and source control of projects
-
-can be hosted either locally or on a shared server such as github
-
-
-
-most repo are stored on github , while contributors make copies of the repo on their machine and update the repo using the push/pull system
-
-
-
-any repo stored somewhere other than locally is called a remote repository
-
-
-
-repo is timelines of entire project including all previously changes 
-
-
-
-directories or wrkng directoris are projects at their current state in timelines
-
-
-
-any local directory interacting with a repo is technically a repo itself .
-
-
-
-however call it as local repository
-
-
-
-
-
-wrknf dir -git add -staging area -git commit -repository
-
-wd : ur proj current state and time 
-
-staging area : bundle of all modifications to the project that are going to be commit
-
-
-
-
-
-commit is similar to taking snapshot of the current state of the project , then storing it on a timelines
-
-
-
-
-
-creating new repository
-
-my project 
-
-add a text file there
-
-
-
-and then using git add command 
-
-
-
-
-
-error :not in agit repo 
-
-
-
-before u run any git u need to git init(initialize a repo)
-
-
-
-to check how ur staging area looks like
-
-
-
-u do git status
-
-
-
-
-
-no files are currently being tracked 
-
-theres nothing to commit
-
-
-
-
-
-add files to staging area
-
-
-
-
-
-we see there is a file whose changes are to be committed
-
-
-
-adding multiple files together in staging area
-
-
-
-all files in staging area
-
-
-
-
-
-if we remove/delete some files it doesnt stage for committed
-
-
-
-if u dont want to track some files
-
-  this completely removes the files
-
-
-
-
-
-  do cache , it will be now in untracked files
-
-
-
-
-
-  setting up username email
-
-
-
-
-
-  initiale committed
-
-
-
+### Repositories
+* data storage sore full history and source control of projects
+* can be hosted either locally or on a shared server such as github
+* most repo are stored on github , while contributors make copies of the repo on their machine and update the repo using the push/pull system
+* any repo stored somewhere other than locally is called a remote repository
+* repo is timelines of entire project including all previously changes whereas directories or wrkng directoris are projects at their current state in timelines
+* any local directory interacting with a repo is technically a repo itself,however call it as local repository
+
+### Git workflow
+* before git tracks a change , it goes through a long chain of operations and tasks
+* working directory(projects at their current state in timelines) -> changes/modification -> Staging area(bundle of all modifications to the project that are going to be commit) -> commit(similar to taking snapshot of the current state of the project , then storing it on a timelines) -> local repo -> push -> remote repo
+
+### Creating new repository
+1) Create a local directory "Projects/Learning"
+2) Add a text file in the folder "learngit.txt"
+3) Move to the terminal and go to the path "/c/Users/leo_a/Documents/Projects/Learning"
+4) now we try to add the file using git 
+![gitaddnostagingarea](https://user-images.githubusercontent.com/43897511/50918794-d48ed300-1406-11e9-8087-a5f5a4e7e368.PNG)
+_not in git reporsitory,we need to initialize it_
+5) ![gitinit](https://user-images.githubusercontent.com/43897511/50918966-3cddb480-1407-11e9-8176-81979b6e86e3.PNG)
+new git repository initialized which have all detailed about the project 
+![initfolder](https://user-images.githubusercontent.com/43897511/50919075-7f06f600-1407-11e9-93d9-268d849b0425.PNG)
+6) Check staging area current status7)
+![gitstatus](https://user-images.githubusercontent.com/43897511/50919300-0ce2e100-1408-11e9-8885-0b6353c7aff8.PNG)
+_staging area have no commits_
+7) Add a file in staging area
+"git add learngit.txt"
+8) Check staging area status 
+![addstatus](https://user-images.githubusercontent.com/43897511/50919439-706d0e80-1408-11e9-8f42-d2556e8f7996.PNG)
+_one file added for commit in atging area_
+9) Working with  multiple files 
+![1](https://user-images.githubusercontent.com/43897511/50919782-5ed83680-1409-11e9-8330-e836587d9d0c.PNG)
+Adding/Deleting/Updating in the staging area
+![2](https://user-images.githubusercontent.com/43897511/50919835-83cca980-1409-11e9-9e2a-d406efe11018.PNG)
+![3](https://user-images.githubusercontent.com/43897511/50919866-9c3cc400-1409-11e9-895c-d67146f17964.PNG)
+![4](https://user-images.githubusercontent.com/43897511/50919872-a1017800-1409-11e9-837a-9d5213043b78.PNG)
+10) Removing file from directory "git rm <filename>" or force remove "git rm -f <filename>"
+11) Untrack some files/ignore files or just remove files from staging area(do not delete from directory) "git rm --cached <filename>"
+12) Commit (takes a snapshot of all the changes done at the time and store them in a tree)
+ ![gitcommitbefrusername](https://user-images.githubusercontent.com/43897511/50920926-52a1a880-140c-11e9-9d10-5331e45c0b13.PNG)
+  _no username and account assigned, we have assign that before any commit , its juts one time process_
+  _git config --global user.email "ricky_198922@yahoo.co.in"_
+  _git config --global user.name "ricky"_
+ 13) Now we can commit 
+  ![commit](https://user-images.githubusercontent.com/43897511/50921245-2d616a00-140d-11e9-9ed5-3a9715210358.PNG)
+  _ m flag is for message , you can put any message according to your wish_
+  14) If you want to commit only tracked files use
+  _git commit -a - m "Your message"
   commit untrack files
-
-
-
-  git log : list all logs
-
-
-
-now if we want to go back to initial committed
+  15) See history of changes
+  git log
+  ![log](https://user-images.githubusercontent.com/43897511/50921441-b082c000-140d-11e9-833f-a7b8087c8abf.PNG)
+15) 
+  now if we want to go back to initial committed
 
 
 
