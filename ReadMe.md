@@ -84,39 +84,34 @@ Adding/Deleting/Updating in the staging area
   commit untrack files
   15) See history of changes
   git log
+  if we want to see changes in a single line
+  git log --oneline
+  ![oneline](https://user-images.githubusercontent.com/43897511/50929867-fe0a2780-1423-11e9-995b-5be95db47129.PNG)
   ![log](https://user-images.githubusercontent.com/43897511/50921441-b082c000-140d-11e9-833f-a7b8087c8abf.PNG)
-15) 
-  now if we want to go back to initial committed
+15) Moving between commits
+  * _git checkout <comit ID> (you can find it by git log)_
+  * _git checkout master_ (goes back in time you will see all commits)
+16) Reverting changes
+    * _git revert <commit ID>
+17) reverting revert
+    * _git checkout master
+    * _git revert <comit ID>
+  ![revert](https://user-images.githubusercontent.com/43897511/50929735-a23f9e80-1423-11e9-862a-f1278fe10f24.PNG)
+ 18) Reset goes all the way back in time and stays there , once done there's no going back
+    * reset works in 3 different stages soft(only goes back in time in the commit tree, sort of checkout ), mixed and hard(going back in time in the working directory and stayig there)
+    * _git resert --hard <commitID>
+  ![hard reset](https://user-images.githubusercontent.com/43897511/50929952-3c074b80-1424-11e9-8240-2e06e01a1f92.PNG)
+19) Git ignore (files which you do not want to track eg: auto-build files)
+    * create a gitignore file _touch .gitignore
+    * a file is created in the folder with no name 
+    * Open it of the file which you do not want to track
+  ![badfile](https://user-images.githubusercontent.com/43897511/50930461-af5d8d00-1425-11e9-8e3a-e71a129deadd.PNG)
+    * checking the git status , we see we have the .gitignore in the untracked files
+  ![aftergitignore](https://user-images.githubusercontent.com/43897511/50930480-be443f80-1425-11e9-8ec9-8df5f719c909.PNG)
 
-
-
-git ccheckout <commit id>
-
-
-
-<going back in time>
-
-head is at different commit
-
-
-
-
-
-mastrer branch
-
-
-
-git checkout master (goes back in time you will see all commits)
-
-and then u can go to the commit u want
-
-
-
-
-
+    
   
 
-
-
+    
 
 
