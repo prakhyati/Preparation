@@ -108,6 +108,24 @@ Adding/Deleting/Updating in the staging area
   ![badfile](https://user-images.githubusercontent.com/43897511/50930461-af5d8d00-1425-11e9-8e3a-e71a129deadd.PNG)
     * checking the git status , we see we have the .gitignore in the untracked files
   ![aftergitignore](https://user-images.githubusercontent.com/43897511/50930480-be443f80-1425-11e9-8ec9-8df5f719c909.PNG)
+20) HEAD is a reference to the last commit in the currently check-out branch.
+21) Git Branches
+    * You can have only one checked out commit at a time.
+    * A branch is a chain of commits that are on a separate timeline from the master, therefore, they do not have conflicting timelines.
+    * Allows you to create separate development paths without overriding or creating copies of your project
+    * Branches can be added, deleted and merged just like regular commits
+    * creates separate branches for each stage of development (release , development,fixes,master)
+    * You have to make an initial commit before creating branches , else your development brach will be considered your master branch
+    * creating branch
+  ![branch](https://user-images.githubusercontent.com/43897511/50932246-9c00f080-142a-11e9-8b60-1734f20083e7.PNG)
+  creates and checkouts a new branch
+  ![branch1](https://user-images.githubusercontent.com/43897511/50932248-9e634a80-142a-11e9-9d61-2b1ebdcb1eb0.PNG)
+    * Listing all branch
+  ![listall branch](https://user-images.githubusercontent.com/43897511/50932273-b4710b00-142a-11e9-922c-c3c6cbe9bc8a.PNG)
+  * Deleting a branch
+  ![deletebranch](https://user-images.githubusercontent.com/43897511/50932296-c3f05400-142a-11e9-94c1-337ae455958e.PNG)
+  _you cannot delete a branch in which you are currently 
+  * merging only taakes last commit of source branch
 
     
   
