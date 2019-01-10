@@ -49,6 +49,8 @@
 1) Create a local directory "Projects/Learning"
 2) Add a text file in the folder "learngit.txt"
 3) Move to the terminal and go to the path "/c/Users/leo_a/Documents/Projects/Learning"
+
+### Initializing and adding git repository to staging area
 4) now we try to add the file using git 
 ![gitaddnostagingarea](https://user-images.githubusercontent.com/43897511/50918794-d48ed300-1406-11e9-8087-a5f5a4e7e368.PNG)
 _not in git reporsitory,we need to initialize it_
@@ -62,8 +64,10 @@ _staging area have no commits_
 "git add learngit.txt"
 8) Check staging area status 
 ![addstatus](https://user-images.githubusercontent.com/43897511/50919439-706d0e80-1408-11e9-8f42-d2556e8f7996.PNG)
-_one file added for commit in atging area_
-9) Working with  multiple files 
+_one file added for commit in staging area_
+
+### Working with  multiple files
+9)  
 ![1](https://user-images.githubusercontent.com/43897511/50919782-5ed83680-1409-11e9-8330-e836587d9d0c.PNG)
 Adding/Deleting/Updating in the staging area
 ![2](https://user-images.githubusercontent.com/43897511/50919835-83cca980-1409-11e9-9e2a-d406efe11018.PNG)
@@ -71,6 +75,8 @@ Adding/Deleting/Updating in the staging area
 ![4](https://user-images.githubusercontent.com/43897511/50919872-a1017800-1409-11e9-837a-9d5213043b78.PNG)
 10) Removing file from directory "git rm <filename>" or force remove "git rm -f <filename>"
 11) Untrack some files/ignore files or just remove files from staging area(do not delete from directory) "git rm --cached <filename>"
+  
+### Username and useremail git global configuration
 12) Commit (takes a snapshot of all the changes done at the time and store them in a tree)
  ![gitcommitbefrusername](https://user-images.githubusercontent.com/43897511/50920926-52a1a880-140c-11e9-9d10-5331e45c0b13.PNG)
   _no username and account assigned, we have assign that before any commit , its juts one time process_
@@ -82,6 +88,8 @@ Adding/Deleting/Updating in the staging area
   14) If you want to commit only tracked files use
   _git commit -a - m "Your message"
   commit untrack files
+  
+  ### Git log
   15) See history of changes
   git log
   if we want to see changes in a single line
@@ -126,7 +134,27 @@ Adding/Deleting/Updating in the staging area
   ![deletebranch](https://user-images.githubusercontent.com/43897511/50932296-c3f05400-142a-11e9-94c1-337ae455958e.PNG)
   _you cannot delete a branch in which you are currently 
   * merging only taakes last commit of source branch
-
+22) Github 
+  * An host for git
+  * fork in github : A fork is a copy of a repository. It allows to freely experiment with changes.
+  * clone in github : cloning helps to create a local repositoy on your computer from remote repository and sync between two locations.
+  * forking a repository creates a copy of the repository under your Github ID . Any changes made will reflect only your forked repository . But if you want to make any changes to your forked repository you will have to expicitly create a pull request to original repository and once approved by admin , then only you can commit changes  or merge with the existing original repository.
+23) Creating remote repository github
+     * copy the https link 
+     * create a new directory 
+     * initialize the new directory
+     * connect remote repository
+    _git remote add origin <httpslink>
+     * connected our repository
+ 24) Push, Pull ,gfetch
+    * fetch is pulling information from your repositroy
+    * push information from our local repository to the host or shared server that we are using
+    * pull remote repository to local reposity
+    * after modifying and commiting the changes in the files we do a git push
+  
+    * it asks for username and password of the github account
+    * We can see changes on the github account after this
+ 25) 
     
   
 
