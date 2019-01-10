@@ -174,14 +174,14 @@ Adding/Deleting/Updating in the staging area
   
 ### Creating remote repository github
      * create a repository in github
-      ![new repo](https://user-images.githubusercontent.com/43897511/50949186-cffc0600-146a-11e9-9e17-ca7a561f2783.PNG)
+   ![new repo](https://user-images.githubusercontent.com/43897511/50949186-cffc0600-146a-11e9-9e17-ca7a561f2783.PNG)
      * copy the https link 
-     ![https](https://user-images.githubusercontent.com/43897511/50949223-f621a600-146a-11e9-81c4-72f10c6363f9.PNG)
+   ![https](https://user-images.githubusercontent.com/43897511/50949223-f621a600-146a-11e9-81c4-72f10c6363f9.PNG)
      * create a new directory 
      * initialize the new directory
      * connect remote repository
     	* _git remote add origin <https link>
-      ![remoteconn](https://user-images.githubusercontent.com/43897511/50949237-09347600-146b-11e9-956d-08cae423e52c.PNG)
+   ![remoteconn](https://user-images.githubusercontent.com/43897511/50949237-09347600-146b-11e9-956d-08cae423e52c.PNG)
 		* connected our repository
     
 ### Push, Pull ,fetch
@@ -189,7 +189,7 @@ Adding/Deleting/Updating in the staging area
     * push information from our local repository to the host or shared server that we are using
     * pull remote repository to local repository
     * after modifying and committing the changes in the files we do a git push
-    ![newpush](https://user-images.githubusercontent.com/43897511/50949275-28330800-146b-11e9-9c8e-02ff0ed98e24.PNG)
+   ![newpush](https://user-images.githubusercontent.com/43897511/50949275-28330800-146b-11e9-9c8e-02ff0ed98e24.PNG)
     * it asks for username and password of the github account
     * We can see changes on the github account after this
 	
