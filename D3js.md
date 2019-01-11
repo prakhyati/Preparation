@@ -44,9 +44,66 @@ fig3
     ```
     <svg width="400" height="60">
        <!-- "x" and "y" coordinates give a shape its position (top left hand corner) -->
-        <rect x="0" y="0" width="50" height="50" fill="green"></rect>
+         <rect x="0" y="0" width="50" height="50" fill="red" stroke="black" stroke-width="2px"></rect>
         </svg>
     ```
-  
-  
-  
+  fig4  
+   * if the co-ordinates of our rectangle lies outside our svg canvas we will not be able to see anything on the screen
+   * for a circle
+   ```
+   <!doctype html>
+<html>
+        <head></head>
+        <body>
+                <svg width="400" height="200">
+                        <circle cx="100" cy="50" r="25" fill="indigo" stroke="black" stroke-width="5px">
+                        </circle>
+                </svg>
+        </body>
+        </html>
+  ```
+  fig5 
+   * for an ellipse
+    ```
+  <!doctype html>
+  <html>
+ <head>
+ </head>
+ <body>
+ <svg width="400" height="200">
+ <ellipse cx="40" cy="40" rx="15" ry="25" fill="grey">
+ </ellipse>
+ </svg>
+ </body>
+ </html>
+  ```
+fig6
+  * for a line
+ ```
+  <!doctype html>
+  <html>
+ <head>
+ </head>
+ <body>
+ <svg width="400" height="200">
+ <line x1="185" y1="5" x2="230" y2="40" stroke="blue" stroke-width="5"></line>
+ </svg>
+ </body>
+ </html>
+  ```
+fig7
+ 
+  * for text
+   ```
+   <text x="260" y="25" font-size="20px" fill="orange">Hello World</text>
+   ```
+fig8
+   * for path
+   ```
+   <svg width="190" height="160" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80" stroke="black" fill="transparent"/>
+   ```
+fig9
+   
+   * 
+    
