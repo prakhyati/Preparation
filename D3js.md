@@ -33,15 +33,20 @@ fig2
   * Markup code similar to HTML
   * Small file size , dont lose any quality if resized
   * a jpeg of google logo takes about 23,000 bytes whereas for SVG it takes 310 bytes
-  * We can inlude SVGs directly in an HTML file eg fig3
- fig3
+  * We can inlude SVGs directly in an HTML file
+fig3
       or we can ad them with Javascript
-  * ##### <svg width="400" height="60"></svg>
-    * creates a SVG canvas with the given with and height
+  * creates a SVG canvas with the given with and height
+  ```
+ <svg width="400" height="60"></svg> 
+ ```
   * For a rectangle we need to suppy an x and y position , which corresponds to the top left corner of the shape
-    * ##### <svg width="400" height="60">
-       ##### <!-- "x" and "y" coordinates give a shape its position (top left hand corner) -->
-       ##### <rect x="0" y="0" width="50" height="50" fill="green"></rect></svg>
+    ```
+    <svg width="400" height="60">
+       <!-- "x" and "y" coordinates give a shape its position (top left hand corner) -->
+        <rect x="0" y="0" width="50" height="50" fill="green"></rect>
+        </svg>
+    ```
   
   
   
