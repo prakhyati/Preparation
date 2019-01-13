@@ -17,6 +17,8 @@
     * everything is open source 
     * easy to collaborate with others
     
+### 
+    
 ### Creating a Python3 webserver 
   * A webserver is a program that uses HTTP to serve the files that form webpages to users , in response to their requests which are forwarded by their computer HTTP clients.
   * Download python3
@@ -43,8 +45,7 @@ fig3
   * For a rectangle we need to suppy an x and y position , which corresponds to the top left corner of the shape
     ```
     <svg width="400" height="60">
-       <!-- "x" and "y" coordinates give a shape its position (top left hand corner) -->
-         <rect x="0" y="0" width="50" height="50" fill="red" stroke="black" stroke-width="2px"></rect>
+                <rect x="0" y="0" width="50" height="50" fill="red" stroke="black" stroke-width="2px"></rect>
         </svg>
     ```
   fig4  
